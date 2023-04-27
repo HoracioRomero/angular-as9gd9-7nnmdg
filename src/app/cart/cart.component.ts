@@ -13,8 +13,5 @@ export class CartComponent {
 
   constructor(private cartService: CartService) {}
   
-  clearCart() {
-    this.cartService.clearCart();
-  }
 }
 
